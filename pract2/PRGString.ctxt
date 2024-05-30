@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PRGString
+comment0.text=\r\n\ Clas\ PRGString\:\ class\ of\ tools\ with\ methods\ for\ working\ with\ Strings.\r\n\ \r\n\ @author\ PRG\ -\ ETSINF\ -\ DSIC\ -\ UPV\r\n\ @version\ Academic\ Year\ 2023/2024\r\n
+comment1.params=
+comment1.target=PRGString()
+comment1.text=Objects\ of\ this\ class\ cannot\ be\ created.
+comment2.params=s
+comment2.target=int\ countA(java.lang.String)
+comment2.text=\r\n\ Returns\ the\ number\ of\ occurrences\ of\ the\ letter\ 'a'\ in\ the\ String\ given\ as\ parameter.\r\n\ @param\ s\ String\ to\ be\ explored\ to\ find\ occurrences\ of\ the\ letter\ 'a'.\r\n\ @return\ int\r\n
+comment3.params=s\ pos
+comment3.target=int\ countA(java.lang.String,\ int)
+comment3.text=\r\n\ Returns\ the\ number\ of\ occurrences\ of\ the\ letter\ 'a'\ in\r\n\ the\ String\ given\ as\ parameter\ from\ the\ specified\ position.\r\n\ @param\ s\ String\ to\ be\ explored\ to\ find\ occurrences\ of\ the\ letter\ 'a'.\r\n\ @param\ pos\ starting\ position\ of\ 's'\ where\ the\ substring\ starts.\r\n\ @return\ int\r\n\ PRECONDITION\:\ pos\ >\=\ 0\r\n
+comment4.params=s
+comment4.target=int\ countA2(java.lang.String)
+comment4.text=\r\n\ Returns\ the\ number\ of\ occurrences\ of\ the\ letter\ 'a'\ in\r\n\ @param\ s\ String\ to\ be\ explored\ to\ find\ occurrences\ of\ the\ letter\ 'a'.\r\n\ @return\ int\r\n
+comment5.params=a\ b
+comment5.target=boolean\ isPrefix(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ Check\ whether\ 'a'\ is\ prefix\ of\ 'b'.\r\n\ \r\n\ This\ method\ recursively\ checks\ if\ the\ first\ string\ 'a'\ is\ a\ prefix\ of\ the\ second\ string\ 'b'.\r\n\ \r\n\ Preconditions>\r\n\ -\ 'a'\ and\ 'b'\ must\ be\ non-null\ strings.\ The\ behavior\ is\ undefined\ if\ null\ strings\ are\ passed.\r\n\ -\ 'a'\ and\ 'b'\ can\ be\ of\ any\ length,\ including\ empty\ strings.\r\n\ \r\n\ @param\ a\ The\ string\ to\ check\ if\ it\ is\ a\ prefix.\r\n\ @param\ b\ The\ string\ to\ check\ against.\r\n\ @return\ true\ if\ 'a'\ is\ a\ prefix\ of\ 'b',\ false\ otherwise.\r\n\ --\ TO\ BE\ COMPLETED\ --\r\n
+comment6.params=a\ b
+comment6.target=boolean\ isSubstring(java.lang.String,\ java.lang.String)
+comment6.text=\r\n\ Check\ whether\ 'a'\ is\ a\ substring\ of\ 'b'.\r\n\ This\ method\ recursively\ checks\ if\ the\ first\ string\ 'a'\ is\ contained\ within\ the\ second\ string\ 'b',\r\n\ by\ utilizing\ the\ previously\ defined\ `isPrefix`\ method.\r\n\ \r\n\ Preconditions\:\r\n\ -\ 'a'\ and\ 'b'\ must\ be\ non-null\ strings.\ The\ behavior\ is\ undefined\ for\ null\ inputs.\r\n\ -\ This\ method\ uses\ `isPrefix(String,\ String)`\ to\ check\ if\ 'a'\ is\ a\ prefix\ of\ any\ substring\ of\ 'b'.\r\n\r\n\ @param\ a\ The\ string\ to\ check\ if\ it\ is\ contained\ within\ 'b'.\r\n\ @param\ b\ The\ string\ to\ be\ searched.\r\n\ @return\ true\ if\ 'a'\ is\ a\ substring\ of\ 'b',\ false\ otherwise.\r\n
+numComments=7
